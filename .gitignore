@@ -1,0 +1,62 @@
+## --- Резултати от компилация и артефакти ---
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Oo]ut/
+*.msbuild.log
+*.err
+*.wrn
+
+## --- Потребителски специфични файлове и кеш ---
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+## --- Visual Studio (Инструменти и кеш) ---
+.vs/
+*.DotGrid.user
+_ReSharper*/
+*.opensdf
+*.sdf
+*.VC.opendb
+
+## --- Visual Studio Code ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+## --- JetBrains Rider / Resharper ---
+.idea/
+*.sln.iml
+
+## --- Файлове с пароли, тайни и конфигурации на средата ---
+.env
+.env.*
+appsettings.Development.json
+# Забележка: Обикновено appsettings.json СЕ проследява, но Development версията може да съдържа локални тайни.
+
+## --- Специфични за операционната система файлове ---
+.DS_Store
+Thumbs.db
+
+## --- Управление на пакети (NuGet и Node) ---
+# Пакетите се възстановяват автоматично при компилация (Package Restore)
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nupkg
+*.snupkg
+
+# Ако проектът ви включва уеб разработка и използва npm
+node_modules/
+package-lock.json
